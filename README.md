@@ -24,3 +24,7 @@ These are rescources to use if you need help with making your GitHub Page or Syn
 - [Basic Git Commands] (https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 
 ## Contributors
+Blake Bennett
+- General Computer Science Major
+- My favorite Image:
+![Sporting Wins 2013 MLS Cup] (sporting-mls-cup.jpg)
