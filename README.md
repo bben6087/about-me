@@ -1,6 +1,8 @@
 # about-me
 
 ## Repo Links
+- [Source Repo](https://github.com/bben6087/bben)
+- [GitHub Pages](https://bben6087.github.io/about-me/)
 
 ## About
 This repo will be used as a guide to tell the user how to get started with links and recources on how to publish their own repo with GitHub Pages
