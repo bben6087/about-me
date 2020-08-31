@@ -12,19 +12,20 @@ The software required to publish your own GitHub Pages is:
 3. TortoiseGit (Optional)
 Languages you need to know
 1. Markdown
+
 Links to Download Software:
 - [Git](https://git-scm.com/)
-- [Visual Studio Code] (https://code.visualstudio.com/)
-- [TortoiseGit] (https://tortoisegit.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [TortoiseGit](https://tortoisegit.org/)
 
 ## Recommended Resources
 These are rescources to use if you need help with making your GitHub Page or Syntax in Markdown
-- [StackOverflow] (https://stackoverflow.com/)
-- [Markdown Syntax] (https://www.markdownguide.org/basic-syntax/)
-- [Basic Git Commands] (https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+- [StackOverflow](https://stackoverflow.com/)
+- [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+- [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 
 ## Contributors
 Blake Bennett
 - General Computer Science Major
 - My favorite Image:
-![Sporting Wins 2013 MLS Cup] (sporting-mls-cup.jpg)
+![Sporting Wins 2013 MLS Cup](sporting-mls-cup.jpg)
