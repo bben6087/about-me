@@ -31,3 +31,6 @@ Blake Bennett
 - General Computer Science Major
 - My favorite Image:
 ![Sporting Wins 2013 MLS Cup](sporting-mls-cup.jpg)
+
+Image Citation
+- [Sporting Image Location](https://www.sportingkc.com/post/2019/11/07/tbt-relive-sporting-kansas-city-s-mls-cup-triumphs-2000-and-2013)
