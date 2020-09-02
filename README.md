@@ -5,8 +5,7 @@
 - [GitHub Pages](https://bben6087.github.io/about-me/)
 
 ## About
-This repo will be used as a guide to tell the user how to get started with links and recources on how to publish their own repo with GitHub Pages
-
+This repo will be used during my Web Applications and Servers class. It will be updated throughout the remainder of the semester as I find more useful tools and resources.
 ## Recommended Tools
 The software required to publish your own GitHub Pages is:
 1. Visual Studio Code
