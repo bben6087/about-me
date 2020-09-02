@@ -11,6 +11,7 @@ The software required to publish your own GitHub Pages is:
 1. Visual Studio Code
 2. Git
 3. TortoiseGit (Optional)
+
 Languages you need to know
 1. Markdown
 2. HTML
