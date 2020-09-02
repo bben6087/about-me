@@ -22,7 +22,7 @@ Links to Download Software:
 - [TortoiseGit](https://tortoisegit.org/)
 
 ## Recommended Resources
-These are rescources to use if you need help with making your GitHub Page or Syntax in Markdown and HTML
+These are rescources to use if you need help with making your GitHub Page or Syntax in Markdown and HTML.
 - [StackOverflow](https://stackoverflow.com/)
 - [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
