@@ -13,6 +13,7 @@ The software required to publish your own GitHub Pages is:
 3. TortoiseGit (Optional)
 Languages you need to know
 1. Markdown
+2. HTML
 
 Links to Download Software:
 - [Git](https://git-scm.com/)
