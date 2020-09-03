@@ -14,7 +14,7 @@ aside{
     padding-right: 20px;
     background-color: lightgray;
 }
-#Author{
+.Author{
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -22,6 +22,10 @@ aside{
 #Future{
     font-style: italic;
 }
+#present{
+    font-style: italic;
+}
+
 nav{
     background-color: lightskyblue;
     overflow: hidden;
