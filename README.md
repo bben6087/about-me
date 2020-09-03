@@ -36,7 +36,3 @@ Blake Bennett
 Image Citation
 - [Sporting Image Location](https://www.sportingkc.com/post/2019/11/07/tbt-relive-sporting-kansas-city-s-mls-cup-triumphs-2000-and-2013)
 
-## Citations for Images and References I used in my site
-- [Sporting Image Location](https://www.sportingkc.com/post/2019/11/07/tbt-relive-sporting-kansas-city-s-mls-cup-triumphs-2000-and-2013)
-- https://github.com/logos for GitHub icon on my main index.html page
-- https://www.w3schools.com/ for help with html tags and css
