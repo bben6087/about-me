@@ -1,0 +1,71 @@
+
+
+body{
+    color: white;
+    background-image: url("kc.jpg");
+    font-style: initial;
+}
+
+aside{
+    float: right;
+    text-align: center;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightgray;
+}
+#Author{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#Future{
+    font-style: italic;
+}
+nav{
+    background-color: lightskyblue;
+    overflow: hidden;
+
+}
+nav img{
+    float: right;
+    border-radius: 50%;
+}
+
+nav a{
+    float: left;
+    text-align: center;
+    color: black;
+    padding: 20px 20px;
+    font-size: 20px;
+
+}
+nav a:hover{
+    background-color:white;
+    color: black;
+}
+
+table tr td{ 
+    border: 5px solid white;
+}
+
+p.I {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2.X{
+    text-decoration: underline;
+}
+
+form{
+    width: 150px;
+    clear: both;
+}
+form input{
+    width: 100%;
+    clear: both;
+}
+.button{
+    width: 75px;
+}
