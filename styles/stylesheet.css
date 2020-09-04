@@ -2,7 +2,7 @@
 
 body{
     color: white;
-    background-image: url("/about-me/images/kc.jpg");
+    background-image: url("kc.jpg");
     font-style: initial;
 }
 
