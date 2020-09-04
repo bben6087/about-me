@@ -1,7 +1,7 @@
 # about-me
 
 ## Repo Links
-- [Source Repo](https://github.com/bben6087/bben)
+- [Source Repo](https://github.com/bben6087/about-me)
 - [GitHub Pages](https://bben6087.github.io/about-me/)
 
 ## About
