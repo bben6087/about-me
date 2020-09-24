@@ -1,19 +1,52 @@
-const  calcVol = (length,width,height) => {
-    return length * width * height
+const calcVol = (length, width, height) => {
+  return length * width * height
 }
-document.querySelector('#click').addEventListener('click', () => {
-    const countClick = parseInt(localStorage.getItem('count')) || 0;
-    const l = parseInt(document.querySelector('#length').value);
-    const w = parseInt(document.querySelector('#width').value);
-    const h = parseInt(document.querySelector('#height').value);
-    const cnt = countClick + 1;
-    const total = `Volume is: ${calcVol(l,w,h)} You have stored in local storage ${cnt} time(s)`;
-    document.querySelector('#display-answer').innerHTML = total;
-    localStorage.setItem('count', cnt);
-})
 
-document.querySelector('#reset').addEventListener('click', () => {
-    localStorage.removeItem('count')
+const validation = async (event) => {
+  console.log(`triggered validate on ${event.target.id}`)
+  const isValid = event.target.checkValidity();
+  if (isValid) {
+    event.target.nextElementSibling.innerHTML = ''
+  }
+  else {
+    event.target.nextElementSibling.innerHTML = 'Invalid input'
+    event.target.focus()
+  }
+}
 
-  })
+const updateVol = async (event) => {
+  document.querySelector('#display-answer').innerHTML = ''
+  if (document.querySelector('#width').checkValidity() && document.querySelector('#height')
+    .checkValidity() && document.querySelector('#length').checkValidity()) {
+    const countClick = parseInt(localStorage.getItem('count')) || 0
+    const l = parseInt(document.querySelector('#length').value)
+    const w = parseInt(document.querySelector('#width').value)
+    const h = parseInt(document.querySelector('#height').value)
+    const cnt = countClick + 1
+    const total = `Volume is: ${calcVol(l, w, h)} You have stored in local storage ${cnt} time(s)`
+    document.querySelector('#display-answer').innerHTML = total
+    localStorage.setItem('count', cnt)
+  }
+}
+
+const deleteStore = async (event) =>{
+  localStorage.removeItem('count');
+}
+
+document.addEventListener('focusout', event => {
+  if (event.target && event.target.id === 'length' ||
+    event.target && event.target.id === 'width' ||
+    event.target && event.target.id === 'height') {
+    validation(event)
+  }
+});
+
+document.addEventListener('click', event => {
+  if (event.target && event.target.id === 'volBtn') {updateVol(event) }
+});
+
+document.addEventListener('click', event => {
+  if(event.target && event.target.id==='reset'){deleteStore(event)}
+
+});
 
