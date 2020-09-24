@@ -26,20 +26,23 @@
                 <fieldset>
                     <label for="width">Width (1-10000)</label>
                     <input type="number" id="width" min="1" max="10000">
+                    <span id="warning1" class="text-danger"></span>
                 </fieldset>
 
                 <fieldset class="mt-2">
                     <label for="height">Height (1-10000)</label>
                     <input type="number" id="height" min="1" max="10000">
+                    <span id="warning2" class="text-danger"></span>
                 </fieldset>
 
                 <fieldset class="mt-2">
                     <label for="length">Length (1-10000)</label>
                     <input type="number" id="length" min="1" max="10000">
+                    <span id="warning3" class="text-danger"></span>
                 </fieldset>
 
                 <fieldset class="mt-2">
-                    <button id="click" type="button" class="btn btn-info">Calculate Volume</button>
+                    <button id="volBtn" type="button" class="btn btn-info">Calculate Volume</button>
                     <button id="reset" type="button" class="btn btn-outline-warning waves-effect">Reset Storage</button>
                 </fieldset>
 
