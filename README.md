@@ -38,4 +38,4 @@ Blake Bennett
 - https://github.com/logos for GitHub icon on my main index.html page
 - https://www.w3schools.com/ for help with html tags and css
 - https://mdbootstrap.com/ for Material Design Bootstrap on my webpage
-
+- https://stackoverflow.com/ I used this for help with qunit errors in my functions
