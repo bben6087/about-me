@@ -9,7 +9,7 @@ const validation = async (event) => {
     event.target.nextElementSibling.innerHTML = ''
   }
   else {
-    event.target.nextElementSibling.innerHTML = 'Invalid input'
+    event.target.nextElementSibling.innerHTML = 'Incorrect input! Please insert a positive integer from (1-10000)'
     event.target.focus()
   }
 }
