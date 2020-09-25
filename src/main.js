@@ -50,3 +50,19 @@ document.addEventListener('click', event => {
 
 });
 
+const loadDoc = async(event) => {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("ajax-text").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax.txt", true);
+  xhttp.send();
+}
+
+document.addEventListener('click', event =>{
+  if (event.target && event.target.id === 'ajax'){loadDoc(event)}
+
+});
+
