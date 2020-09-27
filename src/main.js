@@ -22,8 +22,10 @@ const updateVol = async (event) => {
     const w = parseInt(document.querySelector('#width').value)
     const h = parseInt(document.querySelector('#height').value)
     const cnt = countClick + 1
-    const total = `Volume is: ${calcVol(l, w, h)} You have stored in local storage ${cnt} time(s)`
+    const total = `Volume is: ${calcVol(l, w, h)}`
+    const storage= `You have stored in local storage and used the volume calculator ${cnt} time(s)`
     document.querySelector('#display-answer').innerHTML = total
+    document.querySelector('#display-storage').innerHTML = storage
     localStorage.setItem('count', cnt)
   }
 }
