@@ -3,7 +3,6 @@ const calcVol = (length, width, height) => {
 }
 
 const validation = async (event) => {
-  console.log(`triggered validate on ${event.target.id}`)
   const isValid = event.target.checkValidity();
   if (isValid) {
     event.target.nextElementSibling.innerHTML = ''
